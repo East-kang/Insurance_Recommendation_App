@@ -47,7 +47,10 @@
       - 예외 처리(예: `NumberFormatException`)로 **비정상 입력 방지**
 
 **4. 채팅 기반 AI 보험 상담**
-   - `ChatView.kt`(`RecyclerView`)로 **사용자/AI 메시지 양방향 렌더선**
+   - `ChatView.kt`(`RecyclerView`)로 **사용자/AI 메시지 양방향 렌더링**, 첫 입장 안내·빠른 질문, 답변 전송 시 자동 스크롤
+   - **향후 확장**: Room/서버 연동 저장 구조 고려
+
+**5. 기타 UX 개선**
    - **메인 홈 배너**(`ViewPager2`): 자동 슬라이드/옆 미리보기/트랜스폼
    - **내비게이션 드로어**(`DrawerLayout`): 프로필·가입/관심·채팅 등 주요 화면 이동
    - **PDF 약관 보기**(`PdfRenderer`+`RecyclerView`): `PdfView.kt`, `PdfPageAdapter.kt`
